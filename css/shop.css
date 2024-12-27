@@ -1,0 +1,79 @@
+.shop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.one,
+.iphone,
+.cars,
+.plane,
+.clothes,
+.make-up,
+.TV,
+.Head-phone,
+.Furnituer,
+.baby,
+.shoes,
+.Netflex {
+  background-color: var(--prim-color);
+  width: calc(25% - 10px);
+  height: 375px;
+  margin: 5px;
+  /* border-radius: 10px; */
+  box-shadow: 0 0 5px var(--orange-color);
+}
+
+.one .photosss {
+  display: flex;
+}
+.one .photosss div:first-child {
+  display: flex;
+}
+.one .photosss div:first-child img {
+  width: calc(100% - 10px);
+  margin: 5px;
+  /* border-radius: 10px; */
+  height: calc(100% - 50px);
+}
+.one .photosss div:last-child {
+  display: flex;
+}
+.one .photosss div:last-child img {
+  width: calc(100% - 10px);
+  margin: 5px;
+  /* border-radius: 10px; */
+  height: calc(100% - 50px);
+}
+
+.one .discount {
+  display: flex;
+  margin-top: -20px;
+  margin-left: 15px;
+  margin-bottom: 5px;
+  color: var(--white-color);
+}
+.one h2 {
+  margin-top: 5px;
+  margin-left: 15px;
+  margin-bottom: 5px;
+  color: var(--white-color);
+}
+
+.one > span {
+  margin-top: 5px;
+  margin-left: 15px;
+  margin-bottom: 10px;
+  color: gray;
+}
+
+.real-discount {
+  font-weight: bold;
+  color: red;
+}
+
+.discount a {
+  font-weight: bold;
+  margin-left: 80px;
+  color: var(-);
+}

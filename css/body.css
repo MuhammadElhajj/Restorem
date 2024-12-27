@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+
+}
+
+*:focus {
+  outline: none;
+}
+
+:root {
+  --main-color: #ff9800;
+  --prim-color :rgb(5 0 20);
+
+  --white-color : #787775 ;
+
+  --blue-color: #0075ff;
+  --blue-alt-color: #0d69d5;
+  --orange-color: #f59e0b;
+  --green-color: #22c55e;
+  --red-color: #f44336;
+  --grey-color: #888;
+
+  --notmain-color: rgb(255, 149, 0);
+}
+
+.monn-lite {
+  --main-color: green;
+}
+
+.change11 {
+  background-image: url(../images/bgc11.jpg);
+}
+
+body {
+  background-color: #eee;
+}
+
+
+.cw {
+  color: white;
+}
+
+.none {
+  display: none;
+}
+
+.mb-13 {
+  margin-bottom: 13px;
+}
+
+.b-ccc {
+  border-bottom: 2px solid #ccc;
+}
+
+.checked {
+  color: orange;
+}
+
+
+

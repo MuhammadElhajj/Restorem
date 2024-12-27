@@ -1,0 +1,102 @@
+.buy-page {
+    position: fixed;
+    width: 800px;
+    height: 400px;
+    background-color: #1a302e;
+    border: 2px solid var(--main-color);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    z-index: 2;
+    border-radius: 10px;
+}
+
+.buy-page .close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    color: #ddd;
+    cursor: pointer;
+}
+
+
+.buy-page h2 {
+color: #ddd;
+padding: 10px 20px 0 30px;
+font-size: 2.5rem;
+}
+
+.buy-page h4 {
+color: #ddd;
+padding-left: 30px;
+margin-top: -30px;
+}
+
+.buy-page p  {
+    color: #ddd;
+    padding-left: 30px;
+}
+
+.buy-page form {
+    width: 100%;
+}
+
+.buy-page .row-one {
+    width: 100%;
+display: flex;
+justify-content: space-around;
+padding-left: 30px;
+}
+
+.buy-page .row-one span:first-child {
+    color: #fff;
+    margin-right: 10px;
+    
+}
+
+.buy-page .row-one select {
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    outline: none;
+}
+.buy-page .row-one select option {
+    color: #333;
+}
+.buy-page-Countity {
+
+    color: #ddd;
+    background-color: transparent;
+    border: qpx solid #ccc;
+    outline: none;
+}
+.buy-page-textarea  {
+resize: none;
+margin: 20px 30px 10px;
+width: calc(100% - 60px) ;
+height: 100px;
+}
+
+.buy-page-textarea-button {
+    margin: 20px 30px;
+    cursor: pointer;
+    width: calc(100% - 60px) ;
+    height: 30px;
+    border: 2px solid #ddd;
+    color: #333;
+    border-radius: 10px;
+    background: #ddd;
+    transition: background 0.5s , color 0.5s ;
+}
+
+.buy-page-textarea-button:hover {
+background: transparent;
+color: #ddd;
+}
+
+
+
+.buy-page-select-color , 
+.buy-page-select-size  {
+
+}

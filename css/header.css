@@ -1,0 +1,128 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 5px;
+  background-color: var(--prim-color);
+  position: sticky;
+  top: 0;
+  z-index: 1111;
+  box-shadow: 0 10px 50px;
+}
+
+.header-lego img {
+  width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+.a-spical {
+  text-decoration: none;
+  color: var(--main-color);
+}
+/* start header name */
+.name-of-web {
+  margin: 0 20px;
+  font-weight: bold;
+  color: var(--main-color);
+  cursor: pointer;
+  transition: 0.5s;
+  flex-grow: 1;
+  justify-content: flex-start;
+}
+.name-of-web:hover {
+  color: var(--main-color);
+}
+
+.name-of-web .span1 {
+  font-size: 35px;
+}
+.name-of-web .span2 {
+  font-size: 25px;
+}
+.name-of-web .span3 {
+  font-size: 15px;
+}
+/* end name */
+
+/* start search   */
+.header-search {
+  display: flex;
+  align-items: center;
+}
+
+.header-search-icon {
+  padding: 0 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-right: none;
+  border-radius: 10px 0 0 10px;
+  height: 30px;
+  cursor: pointer;
+}
+.header-search-icon i {
+  color: var(--main-color);
+}
+
+.header-search-input input {
+  /* padding: 7px; */
+  height: 30px;
+  width: 300px;
+  border:none;
+  background-color: white;
+  border-radius: 0 10px 10px 0;
+  padding: 0 10px;
+}
+
+.header-search-input input:focus::placeholder {
+  opacity: 0;
+}
+
+/* end search  */
+
+
+.more-option .bars {
+  color: var(--main-color);
+  font-size: 30px;
+  margin-left: 20px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+
+
+
+@media screen and (min-width : 0px) and (max-width : 400px) {
+  .header-lego img {
+    width: 35px;
+    height: 35px;
+  }
+
+  .name-of-web .span1 {
+    font-size: 27px;
+}
+.name-of-web .span2 {
+  font-size: 21px;
+}
+.name-of-web .span3 {
+  font-size: 15px;
+}
+.name-of-web {
+  margin: 0px 6px;
+}
+
+}
+@media screen and (min-width : 0px) and (max-width : 660px) {
+  .header-search-input input  {
+    display: none;
+  }
+
+  .header-search-icon  {
+    background-color: transparent;
+  }
+  .main-part .info  {
+    width: 80%;
+  }
+}

@@ -1,0 +1,40 @@
+.cars h2 {
+  margin-top: 5px;
+  margin-left: 15px;
+  margin-bottom: 5px;
+  color: var(--white-color);
+}
+
+.cars > span {
+  margin-top: 5px;
+  margin-left: 15px;
+  margin-bottom: 10px;
+  color: gray;
+}
+
+.cars .photosss {
+  margin: 25px auto;
+  display: flex;
+}
+
+.cars .photosss .photo-one img {
+  width: calc(100% - 10px);
+  margin: 5px;
+  /* border-radius: 10px; */
+  height: calc(100% - 50px);
+}
+
+.cars .photosss .photo-two img {
+  width: calc(100% - 10px);
+  margin: 5px;
+  /* border-radius: 10px; */
+  height: calc(100% - 50px);
+}
+
+.cars .discount {
+  display: flex;
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-bottom: 5px;
+  color: var(--white-color);
+}

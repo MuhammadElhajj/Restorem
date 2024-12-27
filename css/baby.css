@@ -1,0 +1,54 @@
+.baby h2 {
+  margin-top: 5px;
+  margin-left: 15px;
+  margin-bottom: 5px;
+  color: var(--white-color);
+}
+
+.baby > span {
+  margin-top: 5px;
+  margin-left: 15px;
+  margin-bottom: 10px;
+  color: gray;
+}
+
+.baby .photosss {
+  display: flex;
+}
+.baby .photosss div:first-child {
+  display: flex;
+}
+.baby .photosss div:first-child img {
+  width: calc(100% - 10px);
+  margin: 5px;
+  height: calc(100% - 50px);
+}
+.baby .photosss div:last-child {
+  display: flex;
+}
+.baby .photosss div:last-child img {
+  width: calc(100% - 10px);
+  margin: 5px;
+  height: calc(100% - 50px);
+}
+
+.real-discount {
+  font-weight: bold;
+  color: var(--main-color);
+}
+
+.discount a {
+  font-weight: bold;
+  margin-left: 80px;
+  color: red;
+}
+
+.baby .discount {
+  display: flex;
+  margin-top: 10px;
+  margin-left: 15px;
+  margin-bottom: 5px;
+  color: var(--white-color);
+}
+
+

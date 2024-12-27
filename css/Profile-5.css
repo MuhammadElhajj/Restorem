@@ -1,0 +1,17 @@
+.Other-info {
+    padding: 20px;
+    border-left: 2px solid gray;
+    }
+    
+    .Other-info h2 {
+        margin-top: -15px;
+    margin-bottom: 10px;
+    }
+    .Other-info div {
+        margin-bottom: 10px;
+    }
+    
+    .Other-info div span:first-child{
+        font-weight: bold;
+        margin-right: 20px;
+    }

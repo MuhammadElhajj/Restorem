@@ -1,0 +1,92 @@
+.setting-box {
+  position: fixed;
+  background-color: var(--prim-color);
+  right: -250px;
+  top: 0;
+  width: 250px;
+  height: 100%;
+  z-index: 2000;
+  transition: 0.5s;
+}
+.setting-box .icon {
+  width: 30px;
+  padding: 8px;
+  cursor: pointer;
+}
+.setting-box .icon i {
+  /* position: fixed;
+    top: 200px;
+    right: 200px;
+    cursor: pointer; */
+  color: var(--main-color);
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.more-option .icon-option {
+  padding: 10px;
+  cursor: pointer;
+}
+.more-option .icon-option .span1 {
+  display: block;
+  width: 30px;
+  margin: 5px;
+  height: 2px;
+  background-color: var(--main-color);
+}
+
+.right {
+  right: 0;
+}
+
+.setting-list h2 {
+  color: var(--main-color);
+  margin-left: 20px;
+  margin-bottom: 50px;
+}
+
+.option-ul ul {
+  list-style: none;
+  color: var(--main-color);
+  margin-left: -20px;
+}
+.option-ul ul li {
+  font-size: 17px;
+  border-bottom: 1px solid var(--main-color);
+  padding: 5px 10px;
+  margin-right: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+  padding: 10px 15px;
+  border-bottom: 1px solid var(--main-color);
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.option-ul ul li:hover {
+  background-color: var(--main-color);
+  border-bottom: 1px solid black;
+}
+.option-ul ul li:hover .sidebar-a{
+    color: black;
+}
+.option-ul ul li:hover .sidebar-a span{
+    color: black;
+}
+.option-ul ul li:hover .profile-span {
+  margin-left: 40px;
+}
+.option-ul ul li .profile-span {
+  margin-left: 10px;
+  transition: 1s;
+  color: var(--white-color);
+}
+
+.sidebar-a  {
+  text-decoration: none;
+  color: var(--main-color);
+  font-weight: bold;
+}
+
+.sidebar-a  span {
+    color: white;
+}

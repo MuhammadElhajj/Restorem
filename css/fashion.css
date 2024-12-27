@@ -1,0 +1,264 @@
+.fashion {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fashion .one {
+  padding: 5px;
+  margin: 5px;
+}
+
+.fashion .one img {
+  width: 150px;
+  height: 225px;
+  border-radius: 4px;
+}
+
+.fashion .two {
+  padding: 5px;
+  margin: 5px;
+}
+.fashion .two img {
+  width: 150px;
+  height: 140px;
+  border-radius: 4px;
+}
+
+.fashion-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.fishion-one {
+  display: flex;
+  padding: 10px;
+  margin: 35px 10px 10px;
+  width: calc(40% - 20px);
+  height: 560px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.fishion-one-one {
+  width: 75%;
+}
+.fishion-one-one img {
+  border: none;
+  width: 132%;
+  height: 90%;
+  border-radius: 10px;
+}
+
+.fishion-one-two h2 {
+  color: #c12e2e;
+}
+
+.fishion-one-two h3 {
+  margin: -20px;
+}
+.fishion-one-two h4 {
+  color: #c12e2e;
+}
+
+/* ............................start.fashion.................................. */
+.fashion {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 620px;
+}
+
+.fashion .container {
+  height: 400px;
+  display: flex;
+  align-items: center;
+  margin: 50px 0;
+}
+.information h2 {
+  font-size: 45px;
+  margin-top: 10px;
+}
+
+.fashion .container .column-one {
+  flex-basis: 45%;
+  height: 370px;
+  transform: scale(1.2);
+  position: relative;
+  border: 2px solid #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px var(--main-color);
+}
+.fashion .container .column-one img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.fashion .container .column-one .control {
+  position: absolute;
+  right: 13px;
+  bottom: 20px;
+}
+.fashion .container .column-one .control span {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #eee;
+  display: block;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.fashion .container .column-two {
+  flex-basis: 51%;
+  padding-left: 10%;
+  padding-right: 3%;
+  background: #eee;
+  height: 100%;
+  border-radius: 10px;
+  box-shadow: 0 0 20px var(--main-color);
+
+}
+.fashion .container .column-two .information {
+  height: 200px;
+}
+
+.fashion .container .column-two .information p {
+  letter-spacing: 1px;
+  font-size: 16px;
+}
+.fashion .container .column-two .information h2:last-child {
+  font-size: 20px;
+}
+
+.fashion .container .column-two .information h2:last-child span {
+  font-size: 30px;
+  color: #c12e2e;
+}
+
+.fashion form {
+}
+.fashion form .size input,
+.fashion form .color input {
+  display: none;
+}
+
+.fashion form .size input:checked + span {
+  font-size: 18px;
+  font-weight: 600;
+}
+.fashion form label {
+  margin-right: 10px;
+}
+
+.fashion .size label span {
+  cursor: pointer;
+}
+.size {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+.size p {
+  margin-right: 20px;
+}
+
+.color {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.fashion form .color input:checked + span {
+  transform: scale(1.4);
+  border: 1px solid white;
+  outline: 1px solid black;
+}
+.fashion form label {
+  margin-right: 10px;
+}
+
+.fashion form .color span {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: block;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.red {
+  background-color: red;
+}
+.green {
+  background-color: green;
+}
+.pink {
+  background-color: pink;
+}
+.yellow {
+  background-color: yellow;
+}
+.color p {
+  margin-right: 20px;
+}
+
+.countity {
+  display: flex;
+  align-items: center;
+}
+
+.countity p {
+  margin: 10px 20px 10px 0;
+}
+/* .countity input {
+  border: 0;
+  outline: 0;
+  width: 40px;
+  padding: 3px 5px;
+  border-radius: 10px;
+  background-color: #eee;
+  font-weight: bold;
+} */
+
+.buy-button {
+  display: flex;
+  justify-content: flex-end;
+}
+.buy-button button {
+  padding: 8px 15px;
+  border: 0;
+  outline: 0;
+  background: #00ff3099;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  border: 2px solid #00ff3099;
+  transition: 0.5s;
+}
+
+.buy-button button:hover {
+  background-color: #eee;
+}
+
+.control span.active {
+  border: 1px solid black;
+  outline: 1px solid #fff;
+}
+
+.fashion-container {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: var(--prim-color);
+  /* background-image: url(../images/02.jpg);
+  background-size: cover;
+  background-position: fixed;
+  background-repeat: repeat;
+  background-size: 100% 96vh; */
+
+}
+/* ............................end.fashion.................................. */

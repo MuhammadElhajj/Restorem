@@ -1,0 +1,40 @@
+.Furnituer h2 {
+  margin-top: 5px;
+  margin-left: 15px;
+  margin-bottom: 5px;
+  color: var(--white-color);
+}
+
+.Furnituer > span {
+  margin-top: 5px;
+  margin-left: 15px;
+  margin-bottom: 10px;
+  color: gray;
+}
+
+.Furnituer .photosss {
+  margin: 25px auto;
+  display: flex;
+}
+
+.Furnituer .photosss .photo-one img {
+  width: calc(100% - 10px);
+  margin: 5px;
+  /* border-radius: 10px; */
+  height: calc(100% - 50px);
+}
+
+.Furnituer .photosss .photo-two img {
+  width: calc(100% - 10px);
+  margin: 5px;
+  /* border-radius: 10px; */
+  height: calc(100% - 50px);
+}
+
+.Furnituer .discount {
+  display: flex;
+  margin-top: 60px;
+  margin-left: 15px;
+  margin-bottom: 5px;
+  color: var(--white-color);
+}

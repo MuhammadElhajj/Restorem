@@ -1,0 +1,27 @@
+.ChangeMode {
+    --white-color :rgb(5 0 20);
+    --prim-color : #dfdee0 ;
+    .main-part {
+      background-image: url(../images/bgcwhite.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+    .info {
+      color: rgb(5 0 20);
+    }
+    .header-search-input input {
+      background-color: rgb(5 0 20);
+      color: white;
+    }
+    .header-search-input input::placeholder {
+      color: white;
+    }
+  
+    .header-search-icon {
+      background-color: black;
+    }
+    .mode .span1 {
+      background-color: black;
+    }
+  }

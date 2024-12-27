@@ -1,0 +1,85 @@
+.more-info .call-info {
+  padding: 20px;
+  padding-top: 10px;
+  border-left: 2px solid gray;
+}
+
+.more-info .call-info .number > span .n {
+  font-weight: bold;
+  margin-left: 15px;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+.more-info .call-info .number > span span:last-child {
+  background-color: var(--main-color);
+  padding: 2px 8px;
+  color: black;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-left: 80px;
+}
+
+.more-info .call-info .email {
+  margin: 10px 0;
+}
+
+.more-info .call-info .email > span .e {
+  font-weight: bold;
+  margin-left: 15px;
+  margin-right: 20px;
+}
+.more-info .call-info .email > span span:last-child {
+  background-color: var(--main-color);
+  padding: 2px 8px;
+  color: black;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-left: 40px;
+}
+
+.more-info .call-info .chat {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  background-color: var(--main-color);
+  color: black;
+  border-radius: 50px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.more-info .call-info .chat > span {
+  margin: 8px;
+}
+
+/* chat word => margin-left */
+.more-info .call-info .chat > span span {
+  margin: 10px;
+}
+
+/* main rate div */
+.more-info .call-info .rate {
+  display: flex;
+}
+
+/* rete number */
+.more-info .call-info .rate .r {
+  padding: 10px;
+  background-color: var(--main-color);
+  border-radius: 10px;
+  margin-right: 10px;
+  font-weight: bold;
+  color: black;
+}
+
+/* number of reviews  */
+.more-info .call-info .rate .three span:first-child {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 2px 5px;
+}

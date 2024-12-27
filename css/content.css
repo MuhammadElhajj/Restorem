@@ -1,0 +1,42 @@
+.fixed {
+  background-color: var(--prim-color);
+  position: sticky;
+  top: 50px;
+  z-index: 1;
+}
+
+.fixed-h1-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+}
+
+.fixed-h1 .span1 {
+  color: red;
+}
+.fixed-h1 .span2 {
+  color: rgb(212, 255, 0);
+}
+.fixed-h1 .span3 {
+  color: rgb(21, 255, 0);
+}
+.fixed-h1 .span4 {
+  color: rgb(0, 251, 255);
+}
+.fixed-h1 .span5 {
+  color: rgb(0, 42, 255);
+}
+.fixed-h1 .span6 {
+  color: rgb(225, 0, 255);
+}
+.fixed-h1 .span7 {
+  color: rgb(255, 0, 140);
+}
+.fixed-h1 .span8 {
+  color: rgb(255, 169, 169);
+}
+
+.content {
+  background-color: var(--prim-color)
+}

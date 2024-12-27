@@ -1,0 +1,43 @@
+.Head-phone h2 {
+  margin-top: 5px;
+  margin-left: 15px;
+  margin-bottom: 5px;
+  color: var(--white-color);
+}
+
+.Head-phone > span {
+  margin-top: 5px;
+  margin-left: 15px;
+  margin-bottom: 10px;
+  color: gray;
+}
+
+.Head-phone .photosss {
+  display: flex;
+}
+
+.Head-phone .photosss .photo-one,
+.Head-phone .photosss .photo-two {
+  width: 100%;
+}
+.Head-phone .photosss .photo-one img {
+  width: calc(100% - 30px);
+  margin: 5px 15px;
+  /* border-radius: 10px; */
+  height: calc(100%);
+}
+
+.Head-phone .photosss .photo-two img {
+  width: calc(100% - 30px);
+  margin: 5px 15px;
+  /* border-radius: 10px; */
+  height: calc(100%);
+}
+
+.Head-phone .discount {
+  display: flex;
+  margin-top: 35px;
+  margin-left: 15px;
+  margin-bottom: 5px;
+  color: var(--white-color);
+}

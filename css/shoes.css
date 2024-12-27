@@ -1,0 +1,38 @@
+.clothes h2 {
+    margin-top: 5px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+    color: var(--white-color);
+  }
+  
+  .clothes > span {
+    margin-top: 5px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    color: gray;
+  }
+  
+  .clothes .photosss {
+    display: flex;
+  }
+  
+  .clothes .photosss .photo-one img {
+    width: calc(100% - 10px);
+    margin: 5px;
+    height: calc(120% - 50px);
+  }
+  
+  .clothes .photosss .photo-two img {
+    width: calc(100% - 10px);
+    margin: 5px;
+    height: calc(120% - 50px);
+  }
+  
+  .clothes .discount {
+    display: flex;
+    margin-top: 25px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+    color: var(--white-color);
+  }
+  

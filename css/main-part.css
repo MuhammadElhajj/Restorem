@@ -1,0 +1,53 @@
+.main-part {
+  width: 100%;
+  height: 933px;
+  background-image: url(../images/02.jpg);
+  margin-top: -250px;
+}
+
+.main-part .info {
+  position: absolute;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -150%);
+  width: 500px;
+  color: white;
+  text-align: center;
+}
+
+.main-part .info h2 {
+  color: var(--main-color);
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: -10px;
+}
+
+.main-part .info p span {
+  font-weight: bold;
+  font-size: 30px;
+  color: var(--main-color);
+}
+
+.main-part .info p {
+  line-height: 1.5;
+  font-size: 18px;
+}
+
+
+
+@media screen and (min-width : 0px) and (max-width : 660px) {
+
+  .main-part .info  {
+    width: 80%;
+  }
+}
+@media screen and (min-width : 0px) and (max-width : 400px) {
+
+  .main-part .info {
+    
+    top: 70%;
+
+  }
+
+}

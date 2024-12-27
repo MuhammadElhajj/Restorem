@@ -1,0 +1,47 @@
+.hour {
+    position: absolute;
+    color: white;
+    top: 120px;
+    left: 32px;
+    font-size: 25px;
+}
+
+.main-hour {
+width: 100%;
+height: 100%;
+padding: 10px 20px;
+letter-spacing: 2px;
+font-weight: bold;
+position: relative;
+}
+
+.hour .main-hour span::after {
+    bottom: -20px;
+    position: absolute;
+    font-size: 18px;
+    color: var(--main-color);
+}
+
+.year::after {
+    content: "Year";
+    left: 28px;
+}
+.day::after {
+content: "Day";
+left: 102px;
+}
+.h::after {
+content: "H";
+left: 166px;
+}
+
+
+.min::after {
+content: "Min";
+left: 212px;
+}
+
+.sec::after {
+content: "Sec";
+left: 270px;
+}

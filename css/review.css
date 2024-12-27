@@ -1,0 +1,131 @@
+.reviews {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  bottom: 40px;
+  margin: 10px auto;
+  left: 35px;
+  width: 96%;
+}
+
+.review-content {
+  /* margin: 10px 20px; */
+  width: 275px;
+  height: 275px;
+  background-color: #050014;
+  border-radius: 10px 0 0 10px;
+}
+
+.More-review {
+  margin: 10px 20px;
+  width: 130px;
+  height: 68px;
+  background-color: #050014;
+  border-radius: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #050014;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 1s;
+}
+
+/* .More-review:hover {
+  background-color: transparent;
+
+} */
+
+.More-review i {
+  animation: go 1s infinite linear;
+  font-size: 15px;
+  margin-left: 5px;
+}
+
+@keyframes go {
+  0% {
+    transform: translateX(5px);
+  }
+  33.3% {
+    transform: translateX(0);
+  }
+  66.3% {
+    transform: translateX(-5px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.More-review a {
+  text-decoration: none;
+  color: var(--main-color);
+}
+.review-content header {
+  display: flex;
+  margin: 7px;
+  border-bottom: 1px solid gray;
+  padding-bottom: 5px;
+}
+.review-content header img {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  border: 2px solid #999;
+}
+
+.review-content header .nameInfo {
+  padding: 5px 10px;
+}
+
+.review-content header .nameInfo h2 {
+  font-size: 13px;
+  margin: 5px;
+  color: white;
+}
+
+.review-content header .nameInfo p {
+  margin: 5px;
+  font-size: 11px;
+  color: #999;
+}
+
+.post-content {
+  padding: 10px;
+  line-height: 1.3;
+  color: #999;
+  height: 135px;
+  /* border-bottom: 1px solid #999; */
+  overflow: auto;
+}
+
+.react {
+  display: flex;
+  justify-content: space-between;
+  padding: 7px 15px;
+  color: #999;
+}
+
+.react .like {
+  cursor: pointer;
+  transition: color 0.5;
+}
+.react .like:hover .fa-heart {
+  color: red;
+}
+.react .comment {
+  cursor: pointer;
+  transition: 0.5;
+}
+.react .comment:hover .fa-comment {
+  color: blue;
+}
+
+.viewed {
+  color: #999;
+  border-bottom: 1px solid #999;
+  padding: 7px;
+  font-size: 12px;
+}

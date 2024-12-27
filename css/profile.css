@@ -1,0 +1,97 @@
+.profile-content {
+  background-color: #010101;
+  margin-bottom: -20px;
+}
+.cover {
+  position: relative;
+}
+
+.cover .main-cover img {
+  width: 100%;
+  height: 333px;
+}
+
+.cover .avatar-cover {
+  position: absolute;
+  left: 20%;
+  bottom: -75px;
+}
+
+.cover .avatar-cover img:first-child {
+  width: 150px;
+  height: 150px;
+  border: 2px solid black;
+  outline: 2px solid white;
+  border-radius: 50%;
+}
+.social-info {
+  padding: 20px;
+  margin-top: -5px;
+  padding-left: 40%;
+  border-bottom: 1px solid #ccc;
+  background-color: #010101;
+  color: #fff;
+}
+
+.social-info h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-weight: normal;
+}
+
+.social-info .span-one {
+  color: gray;
+}
+
+.social-info .social-links {
+  padding-top: 7px;
+  color: white;
+}
+
+.social-info .social-links > span {
+  margin-right: 20px;
+}
+
+.more-info {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 20px;
+  align-items: center;
+  padding-bottom: 20px;
+  background-color: #010101;
+  color: white;
+}
+
+.varid {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  top: 100px;
+  right: 0;
+  border: 2px solid black;
+  outline: 2px solid white;
+}
+
+
+/* start  sign up */
+.sign-up {
+  border: 1px solid white;
+
+  border-radius: 10px;
+}
+.sign-up a {
+color: white;
+text-decoration: none;
+font-weight: bold;
+padding: 10px;
+}
+
+.sign-up a span {
+  margin-left: 10px;
+}
+
+
+/* end   sign up */
