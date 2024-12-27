@@ -83,3 +83,24 @@
   font-weight: bold;
   margin: 2px 5px;
 }
+
+
+
+
+@media screen and (min-width : 0px) and (max-width : 600px) {
+
+  .more-info .call-info {
+   
+    border: 0px ;
+  }
+  .more-info .call-info  {
+    padding: 0;
+  }
+  .number span , .email span {
+    display: flex;
+    align-items: center;
+  }
+  .more-info .call-info .email > span span:last-child {
+    margin: 0;
+  }
+} 

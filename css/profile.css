@@ -95,3 +95,33 @@ padding: 10px;
 
 
 /* end   sign up */
+
+
+
+@media screen and (min-width : 0px) and (max-width : 600px) {
+  .social-info {
+    padding: 90px 0 20px;
+  }
+
+
+  .profile-content {
+
+    padding: 0 20px;
+  }
+  .more-info .call-info {
+   
+    border-left: 0px solid gray;
+  }
+  .cover .avatar-cover img:first-child {
+    width: 100px;
+    height: 100px; 
+
+    }
+    .varid {
+    
+      width: 32px;
+      height: 30px;
+     
+      top: 70px;
+    }
+} 
