@@ -42,7 +42,7 @@
 .setting-list h2 {
   color: var(--main-color);
   margin-left: 20px;
-  margin-bottom: 50px;
+  margin-bottom: 17px;
 }
 
 .option-ul ul {
@@ -59,7 +59,6 @@
   transition: 0.3s;
   padding: 10px 15px;
   border-bottom: 1px solid var(--main-color);
-  border-radius: 10px;
   margin-bottom: 20px;
 }
 .option-ul ul li:hover {

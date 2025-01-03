@@ -90,4 +90,13 @@
     .header-search-icon  {
       background-color: transparent;
     }
+    .header-search-input input {
+      display: none;
+    }
+  } 
+  @media screen and (min-width : 0px) and (max-width : 550px) {
+  
+    .header-search-input input {
+      display: none;
+    }
   } 
