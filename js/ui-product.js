@@ -51,15 +51,8 @@ span1.className = "link-span"
 
 
 
-// let span3 = document.createElement("span")
-// let span4 = document.createElement("span")
 
-// span3.className = "real";
-// span4.className = "real";
-// let span3Contant = span3.appendChild(document.createTextNode(firstdiscount))
-// let span4Contant = span4.appendChild(document.createTextNode(seconddiscount))
-
-span1.appendChild(document.createTextNode(`Discount between ${firstdiscount}% and ${seconddiscount}%`))
+span1.appendChild(document.createTextNode(`Discount ${firstdiscount}% & ${seconddiscount}%`))
 discount.appendChild(span1)
 discount.appendChild(span2)
 
@@ -74,15 +67,15 @@ a.href = "fashion.html";
 
 
 // uiProduct ("Fashion" , "All of your Fashion is here" )
-uiProduct ("Fashion" , "All of your Fashion is here" , "../images/fashion04.jpg" , "../images/fashion1.jpg" , "20" , "40");
-uiProduct ("Make Up" , "All of your dream in plane is here ........" , "../images/make01.jpg" , "../images/make02.jpg" , "12" , "15");
-uiProduct ("Baby" , "Improve your baby live with ReStorEm ...." , "../images/baby01.jpg" , "../images/baby02.jpg" , "2" , "9.9");
-uiProduct ("Shoes" , "Beautiful color and a great designs........" , "../images/shoes01.jpg" , "../images/shoes02.jpg" , "10" , "13.54");
-uiProduct ("iPhone" , "Latest verisions of phone apple product ........" , "../images/iphone1.jpg" , "../images/iphone3.jpg" , "2.44" , "5.88");
-uiProduct ("Sport Cars" , "G Class / Firrari /Porsh / Lumbergeni ........" , "../images/car1.jpg" , "../images/car2.jpg" , "23" , "25");
-uiProduct ("Planes" , "All of your dream in plane is here ........" , "../images/08.jpg" , "../images/09.jpg" , "1.99" , "2.99");
-uiProduct ("Clothes" , "Alot of kind and alot of size ......." , "../images/clothes1.jpg" , "../images/clothes.jpg" , "20.54" , "35");
-uiProduct ("Smart TV" , "To future TV with ReStorEm is differnt........" , "../images/tv01.jpg" , "../images/tv02.jpg" , "1.99" , "5.44");
-uiProduct ("Head Phone" , "The best experience with apple head phone ...." , "../images/head-phone01.jpg" , "../images/head-phone02.jpg" , "6.45" , "8.65");
-uiProduct ("Furniture" , "Amazing designs of furniture with us ...." , "../images/furnituer.jpg" , "../images/furniuer01.jpg" , "1.2" , "4.23");
-uiProduct ("Net - Flex" , "A lot of amazing movies are here in ReStorEm .." , "../images/Netflex.jpg"  , "../images/Netflex.jpg"  , "32" , "56");
+uiProduct ("Fashion" , "All of your Fashion" , "../img 2/fashion04.jpg" , "../images/fashion1.jpg" , "2" , "4");
+uiProduct ("Make Up" , "Make up girl  " , "../img 2/make01.jpg" , "../img 2/make02.jpg" , "1" , "5");
+uiProduct ("Baby" , "Baby live with ReStorEm" , "../img 1/baby01.jpg" , "../img 1/baby02.jpg" , "2" , "9");
+uiProduct ("Shoes" , "Great color and designs" , "../img 2/shoes01.jpg" , "../img 2/shoes02.jpg" , "1" , "3");
+uiProduct ("iPhone" , "Apple phone product " , "../img 2/iphone1.jpg" , "../img 2/iphone3.jpg" , "2" , "5");
+uiProduct ("Sport Cars" , "Beautiful Cars" , "../images/car1.jpg" , "../images/car2.jpg" , "2" , "5");
+uiProduct ("Planes" , "All of your dream in plane" , "../images/08.jpg" , "../images/09.jpg" , "1" , "2");
+uiProduct ("Clothes" , "Alot of kinds and sizes" , "../images/clothes1.jpg" , "../images/clothes.jpg" , "2" , "3");
+uiProduct ("Smart TV" , "To future of TV" , "../img 2/tv01.jpg" , "../img 2/tv02.jpg" , "1" , "5");
+uiProduct ("Head Phone" , "Best experience with head phone" , "../img 2/head-phone01.jpg" , "../img 2/head-phone02.jpg" , "6" , "8");
+uiProduct ("Furniture" , "Amazing designs" , "../img 2/furnituer.jpg" , "../img 2/furniuer01.jpg" , "1" , "4");
+uiProduct ("Net - Flex" , "amazing movies in ReStorEm " , "../img 2/Netflex.jpg"  , "../img 2/Netflex.jpg"  , "3" , "5");

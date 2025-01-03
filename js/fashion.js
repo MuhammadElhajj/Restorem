@@ -17,6 +17,13 @@ const Fasionproductimagefive = document.getElementById("product-img-five");
 let FashionCtrlsix = document.getElementsByClassName("control-six");
 const Fasionproductimagesix = document.getElementById("product-img-six");
 
+let FashionCtrlseven = document.getElementsByClassName("control-seven");
+const Fasionproductimageseven = document.getElementById("product-img-seven");
+
+
+let FashionCtrleight = document.getElementsByClassName("control-eight");
+const Fasionproductimageeight = document.getElementById("product-img-seven");
+
 
 
 
@@ -48,10 +55,12 @@ ctrl[2].onclick = function () {
 
 }
 
-muhammad(FashionCtrlOne , FasionproductimageOne , "../images/fashion01.jpg" ,"../images/fashion02.jpg" ,"../images/fashion03.jpg");
+muhammad(FashionCtrlOne , FasionproductimageOne , "../images/fashion01.jpg" ,"../img 2/fashion02.jpg" ,"../img 2/fashion03.jpg");
 muhammad(FashionCtrltwo , Fasionproductimagetwo ,"../images/02.jpg" ,"../images/01.jpg" , "../images/03.jpg" );
-muhammad(FashionCtrlthree , Fasionproductimagethree , "../images/head-phone01.jpg" , "../images/head-phone02.jpg" , "../images/05721e25853a8d17e0b21f120514802d.jpg");
+muhammad(FashionCtrlthree , Fasionproductimagethree , "../img 2/head-phone01.jpg" , "../img 2/head-phone02.jpg" , "../images/05721e25853a8d17e0b21f120514802d.jpg");
 muhammad(FashionCtrlfour , Fasionproductimagefour , "../images/04.jpg" , "../images/05.jpg" , "../images/06.jpg");
-muhammad(FashionCtrlfive , Fasionproductimagefive , "../images/b68bc30ea37467dc9228954764df5cd9.jpg " ,"../images/08.jpg" ,"../images/09.jpg");
-muhammad(FashionCtrlsix , Fasionproductimagesix , "../images/b68bc30ea37467dc9228954764df5cd9.jpg " ,"../images/08.jpg" ,"../images/09.jpg");
+muhammad(FashionCtrlfive , Fasionproductimagefive , "../img 2/b68bc30ea37467dc9228954764df5cd9.jpg " ,"../images/08.jpg" ,"../images/09.jpg");
+muhammad(FashionCtrlsix , Fasionproductimagesix , "../images/04.jpg" ,"../images/08.jpg" ,"../images/09.jpg");
+muhammad(FashionCtrlseven , Fasionproductimageseven , "../img 2/b68bc30ea37467dc9228954764df5cd9.jpg " ,"../images/08.jpg" ,"../images/09.jpg");
+muhammad(FashionCtrleight , Fasionproductimageeight , "../images/04.jpg" ,"../images/08.jpg" ,"../images/09.jpg");
 // ! end picture control
