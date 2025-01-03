@@ -76,6 +76,6 @@ uiProduct ("Sport Cars" , "Beautiful Cars" , "../images/car1.jpg" , "../images/c
 uiProduct ("Planes" , "All of your dream in plane" , "../images/08.jpg" , "../images/09.jpg" , "1" , "2");
 uiProduct ("Clothes" , "Alot of kinds and sizes" , "../images/clothes1.jpg" , "../images/clothes.jpg" , "2" , "3");
 uiProduct ("Smart TV" , "To future of TV" , "../img 2/tv01.jpg" , "../img 2/tv02.jpg" , "1" , "5");
-uiProduct ("Head Phone" , "Best experience with head phone" , "../img 2/head-phone01.jpg" , "../img 2/head-phone02.jpg" , "6" , "8");
+uiProduct ("Head Phone" , "Best head phone" , "../img 2/head-phone01.jpg" , "../img 2/head-phone02.jpg" , "6" , "8");
 uiProduct ("Furniture" , "Amazing designs" , "../img 2/furnituer.jpg" , "../img 2/furniuer01.jpg" , "1" , "4");
 uiProduct ("Net - Flex" , "amazing movies in ReStorEm " , "../img 2/Netflex.jpg"  , "../img 2/Netflex.jpg"  , "3" , "5");
